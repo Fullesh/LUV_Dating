@@ -183,23 +183,24 @@
             border-radius: 5px;
         }
     </style>
-
     <div class="login-box">
-        <p>Login</p>
+        <p>Вход</p>
         <form method="post" action="" enctype="multipart/form-data" class="form-floating">
+            {% csrf_token %}
             <div class="user-box">
                 <input required="" name="" type="text">
-                <label>Phone</label>
+                <label>Номер телефона</label>
             </div>
             <div class="user-box">
                 <input required="" name="" type="password">
-                <label>Password</label>
+                <label>Пароль</label>
             </div>
-            <a href="#">
-                Submit
-            </a>
+            <button class="a2">Войти</button>
+{#            <a href="#">#}
+{#                Войти#}
+{#            </a>#}
         </form>
-        <p>Don't have an account? <a href="" class="a2">Sign up!</a></p>
+        <p>Ещё нет аккаунта? <a href="" class="a2">Регистрация</a></p>
     </div>
 
 

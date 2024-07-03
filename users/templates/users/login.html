@@ -1,5 +1,7 @@
 {% extends 'homepage/base.html' %}
+
 {% block content %}
+
     <style>
         .login-box {
             position: absolute;
@@ -184,7 +186,7 @@
 
     <div class="login-box">
         <p>Login</p>
-        <form>
+        <form method="post" action="" enctype="multipart/form-data" class="form-floating">
             <div class="user-box">
                 <input required="" name="" type="text">
                 <label>Phone</label>
@@ -199,4 +201,6 @@
         </form>
         <p>Don't have an account? <a href="" class="a2">Sign up!</a></p>
     </div>
+
+
 {% endblock %}

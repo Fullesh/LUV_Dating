@@ -55,6 +55,13 @@
             url({% static 'fonts/inter-v12-latin-700.woff2' %}) format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */ url({% static 'fonts/inter-v12-latin-700.woff' %}) format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
         }
 
+        .footer {
+            position: absolute;
+            bottom: 0;
+            height: 58px;
+            width: 100%;
+        }
+
     </style>
 
 
@@ -64,10 +71,12 @@
 
 {% include 'homepage/main_menu.html' %}
 
-{% block content %}
-{% endblock %}
+<main>
+    {% block content %}
+    {% endblock %}
+</main>
 
-<footer class="bg-black border-top border-dark">
+<footer class="footer bg-black border-top border-dark">
     <div class="container py-vh-4 text-secondary fw-lighter">
         <div class="row">
             <div class="col-12 col-lg-5 py-4 text-center text-lg-start">
@@ -120,24 +129,6 @@
                     </li>
                     <li class="nav-item">
                         <a href="#" class="link-fancy link-fancy-light">More</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col">
-                <span class="h6">Support</span>
-                <ul class="nav flex-column">
-                    <li class="nav-item">
-                        <a href="#" class="link-fancy link-fancy-light">About us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="link-fancy link-fancy-light">Legal</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a href="#" class="link-fancy link-fancy-light">Career</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="link-fancy link-fancy-light">Contact</a>
                     </li>
                 </ul>
             </div>

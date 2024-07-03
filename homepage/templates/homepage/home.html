@@ -6,13 +6,13 @@
         <div class="container py-vh-4 position-relative mt-5 px-vw-5 text-center">
             <div class="row d-flex align-items-center justify-content-center py-vh-5">
                 <div class="col-12 col-xl-10">
-                    <h1 class="display-huge mt-3 mb-3 lh-1">Changing reality</h1>
+                    <h1 class="display-huge mt-3 mb-3 lh-1">Меняем реальность</h1>
                 </div>
                 <div class="col-12 col-xl-8">
-                    <p class="lead text-secondary">Love? Found!</p>
+                    <p class="lead text-secondary">Найти любовь? Здесь!</p>
                 </div>
                 <div class="col-12 text-center">
-                    <a href="#" class="btn btn-xl btn-light">Register
+                    <a href="{% url 'users:login' %}" class="btn btn-xl btn-light">Регистрация
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                              class="bi bi-arrow-right" viewBox="0 0 16 16">
                             <path fill-rule="evenodd"
@@ -51,11 +51,14 @@
             <div class="row d-flex align-items-center">
                 <div class="col-12 col-lg-7 text-lg-end" data-aos="fade-right">
                     <span class="h5 text-secondary fw-lighter">Где я?</span>
-                    <h2 class="display-4">Мы проект который переворачивает ваше представление о знакомтсвах с ног на голову</h2>
+                    <h2 class="display-4">Мы проект который переворачивает ваше представление о знакомствах с ног на
+                        голову</h2>
                 </div>
                 <div class="col-12 col-lg-5" data-aos="fade-left">
                     <h3 class="pt-5">Наш подход к знакомствам</h3>
-                    <p class="text-secondary">Алгоритм машинного обучения выбирает партнера на основе совершённых действий и вашего профиля. Пока вы громко пользуетесь сайтом он тихо учится - вы даже не заметите
+                    <p class="text-secondary">Алгоритм машинного обучения выбирает партнера на основе совершаемых вами
+                        действий и вашего профиля. Пока вы громко пользуетесь сайтом он тихо учится - вы даже не
+                        заметите
                         <br>
                         P.S. Мы не смотрим ваши переписки
                         <br>
@@ -67,7 +70,8 @@
                         </svg>
                     </p>
                     <h3 class="border-top border-secondary pt-5 mt-5">Блог разработки</h3>
-                    <p class="text-secondary">Работа над проектом была долгой и трудной, в основном из-за того, что мы обучали ИИ с нуля и отлавливали все-все-все баги
+                    <p class="text-secondary">Работа над проектом была долгой и трудной, в основном из-за того, что мы
+                        обучали ИИ с нуля и отлавливали все-все-все баги
                         <br>
                         Впрочем, мы пишем об этом в нашем блоге
                         <br>
@@ -85,73 +89,73 @@
 
     <div class="bg-black py-vh-3">
         <div class="container bg-black px-vw-5 py-vh-3 rounded-5 shadow">
-{#            Тут блоговые записи#}
-{#            <div class="row gx-5">#}
-{#                <div class="col-12 col-md-6">#}
-{#                    <div class="card bg-transparent mb-5" data-aos="zoom-in-up">#}
-{#                        <div class="bg-dark shadow rounded-5 p-0">#}
-{#                            <img src="{% static "img/webp/abstract3.webp" %}" width="582" height="327" alt="abstract image"#}
-{#                                 class="img-fluid rounded-5 no-bottom-radius" loading="lazy">#}
-{#                            <div class="p-5">#}
-{#                                <h2 class="fw-lighter">Ipsum dolor est</h2>#}
-{#                                <p class="pb-4 text-secondary">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,#}
-{#                                    sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>#}
-{#                                <a href="#" class="link-fancy link-fancy-light">Read more</a>#}
-{#                            </div>#}
-{#                        </div>#}
-{#                    </div>#}
-{##}
-{#                    <div class="card bg-transparent" data-aos="zoom-in-up">#}
-{#                        <div class="bg-dark shadow rounded-5 p-0">#}
-{#                            <img src="{% static "img/webp/abstract2.webp" %}" width="582" height="442" alt="abstract image"#}
-{#                                 class="img-fluid rounded-5 no-bottom-radius" loading="lazy">#}
-{#                            <div class="p-5">#}
-{#                                <h2 class="fw-lighter">Ipsum dolor est</h2>#}
-{#                                <p class="pb-4 text-secondary">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,#}
-{#                                    sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>#}
-{#                                <a href="#" class="link-fancy link-fancy-light">Read more</a>#}
-{#                            </div>#}
-{#                        </div>#}
-{#                    </div>#}
-                </div>
-                <div class="col-12 col-md-6">
-                    <div class="p-5 pt-0 mt-5" data-aos="fade">
-                        <span class="h5 text-secondary fw-lighter">Пару статей из нашего блога</span>
-                        <h2 class="display-4">Да-да, мы знаем, что блог о разработке может быть скучным.</h2>
-                        <br>
-                        Но это не о нашем блоге
-                        <br>
-                    </div>
-{#                    И тут блоговые записи#}
-{#                    <div class="card bg-transparent mb-5 mt-5" data-aos="zoom-in-up">#}
-{#                        <div class="bg-dark shadow rounded-5 p-0">#}
-{#                            <img src= "{% static "img/webp/abstract17.webp" %}" width="582" height="390" alt="abstract image"#}
-{#                                 class="img-fluid rounded-5 no-bottom-radius" loading="lazy">#}
-{#                            <div class="p-5">#}
-{#                                <h2 class="fw-lighter">Ipsum dolor est</h2>#}
-{#                                <p class="pb-4 text-secondary">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,#}
-{#                                    sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>#}
-{#                                <a href="#" class="link-fancy link-fancy-light">Read more</a>#}
-{#                            </div>#}
-{#                        </div>#}
-{#                    </div>#}
-{##}
-{#                    <div class="card bg-transparent" data-aos="zoom-in-up">#}
-{#                        <div class="bg-dark shadow rounded-5 p-0">#}
-{#                            <img src="{% static 'img/webp/abstract4.webp' %}" width="582" height="327" alt="abstract image"#}
-{#                                 class="img-fluid rounded-5 no-bottom-radius" loading="lazy">#}
-{#                            <div class="p-5">#}
-{#                                <h2 class="fw-lighter">Ipsum dolor est</h2>#}
-{#                                <p class="pb-4 text-secondary">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,#}
-{#                                    sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>#}
-{#                                <a href="#" class="link-fancy link-fancy-light">Read more</a>#}
-{#                            </div>#}
-{#                        </div>#}
-{#                    </div>#}
-                </div>
-            </div>
-
+            {#            Тут блоговые записи#}
+            {#            <div class="row gx-5">#}
+            {#                <div class="col-12 col-md-6">#}
+            {#                    <div class="card bg-transparent mb-5" data-aos="zoom-in-up">#}
+            {#                        <div class="bg-dark shadow rounded-5 p-0">#}
+            {#                            <img src="{% static "img/webp/abstract3.webp" %}" width="582" height="327" alt="abstract image"#}
+            {#                                 class="img-fluid rounded-5 no-bottom-radius" loading="lazy">#}
+            {#                            <div class="p-5">#}
+            {#                                <h2 class="fw-lighter">Ipsum dolor est</h2>#}
+            {#                                <p class="pb-4 text-secondary">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,#}
+            {#                                    sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>#}
+            {#                                <a href="#" class="link-fancy link-fancy-light">Read more</a>#}
+            {#                            </div>#}
+            {#                        </div>#}
+            {#                    </div>#}
+            {##}
+            {#                    <div class="card bg-transparent" data-aos="zoom-in-up">#}
+            {#                        <div class="bg-dark shadow rounded-5 p-0">#}
+            {#                            <img src="{% static "img/webp/abstract2.webp" %}" width="582" height="442" alt="abstract image"#}
+            {#                                 class="img-fluid rounded-5 no-bottom-radius" loading="lazy">#}
+            {#                            <div class="p-5">#}
+            {#                                <h2 class="fw-lighter">Ipsum dolor est</h2>#}
+            {#                                <p class="pb-4 text-secondary">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,#}
+            {#                                    sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>#}
+            {#                                <a href="#" class="link-fancy link-fancy-light">Read more</a>#}
+            {#                            </div>#}
+            {#                        </div>#}
+            {#                    </div>#}
         </div>
+        <div class="col-12 col-md-6">
+            <div class="p-5 pt-0 mt-5" data-aos="fade">
+                <span class="h5 text-secondary fw-lighter">Пару статей из нашего блога</span>
+                <h2 class="display-4">Да-да, мы знаем, что блог о разработке может быть скучным.</h2>
+                <br>
+                Но это не о нашем блоге
+                <br>
+            </div>
+            {#                    И тут блоговые записи#}
+            {#                    <div class="card bg-transparent mb-5 mt-5" data-aos="zoom-in-up">#}
+            {#                        <div class="bg-dark shadow rounded-5 p-0">#}
+            {#                            <img src= "{% static "img/webp/abstract17.webp" %}" width="582" height="390" alt="abstract image"#}
+            {#                                 class="img-fluid rounded-5 no-bottom-radius" loading="lazy">#}
+            {#                            <div class="p-5">#}
+            {#                                <h2 class="fw-lighter">Ipsum dolor est</h2>#}
+            {#                                <p class="pb-4 text-secondary">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,#}
+            {#                                    sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>#}
+            {#                                <a href="#" class="link-fancy link-fancy-light">Read more</a>#}
+            {#                            </div>#}
+            {#                        </div>#}
+            {#                    </div>#}
+            {##}
+            {#                    <div class="card bg-transparent" data-aos="zoom-in-up">#}
+            {#                        <div class="bg-dark shadow rounded-5 p-0">#}
+            {#                            <img src="{% static 'img/webp/abstract4.webp' %}" width="582" height="327" alt="abstract image"#}
+            {#                                 class="img-fluid rounded-5 no-bottom-radius" loading="lazy">#}
+            {#                            <div class="p-5">#}
+            {#                                <h2 class="fw-lighter">Ipsum dolor est</h2>#}
+            {#                                <p class="pb-4 text-secondary">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,#}
+            {#                                    sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>#}
+            {#                                <a href="#" class="link-fancy link-fancy-light">Read more</a>#}
+            {#                            </div>#}
+            {#                        </div>#}
+            {#                    </div>#}
+        </div>
+    </div>
+
+    </div>
 
     </div>
     <div class="bg-dark position-relative">
@@ -159,18 +163,20 @@
             <div class="row d-flex align-items-center">
 
                 <div class="col-12 col-lg-7">
-                    <img class="img-fluid rounded-5 mb-n5 shadow" src="{% static 'img/webp/person9.webp' %}" width="512" height="512"
+                    <img class="img-fluid rounded-5 mb-n5 shadow" src="{% static 'img/webp/person9.webp' %}" width="512"
+                         height="512"
                          alt="a nice person" loading="lazy" data-aos="zoom-in-right">
-                    <img class="img-fluid rounded-5 ms-5 mb-n5 shadow" src="{% static 'img/webp/person11.webp' %}" width="512"
+                    <img class="img-fluid rounded-5 ms-5 mb-n5 shadow" src="{% static 'img/webp/person11.webp' %}"
+                         width="512"
                          height="512" alt="another nice person" loading="lazy" data-aos="zoom-in-up">
                 </div>
                 <div class="col-12 col-lg-5 bg-dark rounded-5 py-5" data-aos="fade">
                     <span class="h5 text-secondary fw-lighter">Любовь с первого взгляда</span>
-                    <h2 class="display-4">Мы понимаем, что в современном мире нет времени многое узнавать о человеке
-                    <br>
-                        Поэтому мы в LUV сделали это за ваc
-                        <br>
+                    <h2 class="display-4">Мы понимаем, что никому не хочется даже минутами сидеть над профилем человека
                     </h2>
+                    <br>
+                    Поэтому мы в LUV позаботились обо всём заранее
+                    <br>
                 </div>
             </div>
         </div>
@@ -181,13 +187,15 @@
             <div class="row d-flex align-items-center">
                 <div class="col-12 col-lg-5 text-center text-lg-end" data-aos="zoom-in-right">
                     <span class="h5 text-secondary fw-lighter">Сколько это стоит?</span>
-                    <h2 class="display-4">Вы получите премиум функции нашего приложения и многое-многое другое на старте</h2>
+                    <h2 class="display-4">Вы получите премиум функции нашего приложения и многое-многое другое на
+                        старте</h2>
                 </div>
                 <div class="col-12 col-lg-7 bg-dark rounded-5 py-vh-3 text-center my-5" data-aos="zoom-in-up">
                     <h2 class="display-huge mb-5">
                         <span class="fs-4 me-2 fw-light">₽</span><span class="border-bottom border-5">599</span><span
                             class="fs-6 fw-light">в месяц</span></h2>
-                    <p class="lead text-secondary">В эту сумму входит кофе для Backend-разработчика, кофе для продакта и все ваши премиум плюшки</p>
+                    <p class="lead text-secondary">В эту сумму входит кофе для Backend-разработчика, сосиска в тесте для Виталика и
+                        все премиум функции</p>
                     <a href="#" class="btn btn-xl btn-light">Регистрация
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                              class="bi bi-arrow-right" viewBox="0 0 16 16">
@@ -203,42 +211,37 @@
     <div class="container-fluid px-vw-5 position-relative" data-aos="fade">
         <div class="position-absolute w-100 h-50 bg-black top-0 start-0"></div>
         <div class="position-relative py-vh-5 bg-cover bg-center rounded-5"
-             style="background-image: url(img/webp/abstract12.webp)">
+             style="background-image: url({% static 'img/webp/abstract12.webp' %})">
             <div class="container bg-black px-vw-5 py-vh-3 rounded-5 shadow">
                 <div class="row d-flex align-items-center">
 
                     <div class="col-6 d-flex align-items-center bg-dark shadow rounded-5 p-0" data-aos="zoom-in-up">
                         <div class="row d-flex justify-content-center">
                             <div class="col-12">
-                                <img src="{% static 'img/webp/person103.webp' %}" width="684" height="457"
-                                     alt="our CEO with some nice numbers" class="img-fluid rounded-5" loading="lazy">
+                                <img src="{% static 'img/CEO.jpg' %}" alt="our CEO with some nice numbers" class="img-fluid rounded-5" loading="lazy">
                             </div>
                             <div class="col-12 col-lg-10 col-xl-8 text-center my-5">
-                                <p class="lead border-bottom pb-4 border-secondary">"Lorem ipsum dolor sit amet,
-                                    consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-                                    dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
-                                    dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
-                                    ipsum dolor sit amet."</p>
-                                <p class="text-secondary text-center">Jane Doe, CEO</p>
+                                <p class="lead border-bottom pb-4 border-secondary">"Нууу построим здес агромни ИСТОК"</p>
+                                <p class="text-secondary text-center">Алмазов Рогалик, Президент LUV</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-5 offset-1">
-                        <span class="h5 text-secondary fw-lighter">The numbers</span>
-                        <h2 class="display-huge fw-bolder" data-aos="zoom-in-left">+400</h2>
+                        <span class="h5 text-secondary fw-lighter">Любовь в числах</span>
+                        <h2 class="display-huge fw-bolder" data-aos="zoom-in-left">150 TB</h2>
                         <p class="h4 fw-lighter text-secondary">
-                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
+                            Данных было обработано LUV_AI для подбора лучшего партнёра
                         </p>
 
                         <h2 class="display-huge fw-bolder border-top border-secondary pt-5 mt-5"
-                            data-aos="zoom-in-left">78.981</h2>
+                            data-aos="zoom-in-left">90909090</h2>
                         <p class="h4 fw-lighter text-secondary">
-                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
+                            Человек уже используют LUV
                         </p>
                         <h2 class="display-huge fw-bolder border-top border-secondary pt-5 mt-5"
-                            data-aos="zoom-in-left">98%</h2>
+                            data-aos="zoom-in-left">09090990</h2>
                         <p class="h4 fw-lighter text-secondary">
-                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
+                            Людей онлайн прямо сейчас
                         </p>
                     </div>
                 </div>
@@ -283,14 +286,14 @@
 
 
                         </div>
-                        <p class="text-secondary lead">"Lorem ipsum dolor sit amet, consectetur tempor incididunt ut
-                            labore et dolore magna aliqua ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
+                        <p class="text-secondary lead">"Нууу, это вам не тиндер канеш..."</p>
                         <div class="d-flex justify-content-start align-items-center border-top border-secondary pt-3">
-                            <img src="{% static 'img/webp/person14.webp' %}" width="96" height="96" class="rounded-circle me-3"
+                            <img src="{% static 'img/webp/person14.webp' %}" width="96" height="96"
+                                 class="rounded-circle me-3"
                                  alt="a nice person" data-aos="fade" loading="lazy">
                             <div>
-                                <span class="h6 fw-5">Jane Doemunsky</span><br>
-                                <small class="text-secondary">COO, The Boo Corp.</small>
+                                <span class="h6 fw-5">Большой негрони</span><br>
+                                <small class="text-secondary">CEO Tinder</small>
                             </div>
                         </div>
                     </div>
@@ -326,15 +329,14 @@
                             </svg>
 
                         </div>
-                        <p class="text-secondary lead">"Lorem ipsum dolor sit amet, consectetur tempor incididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam. quis nostrud exercitation ullamco
-                            laboris nisi ut aliquip ex ea commodo consequat."</p>
+                        <p class="text-secondary lead">"Как по мне не хватает синего"</p>
                         <div class="d-flex justify-content-start align-items-center border-top border-secondary pt-3">
-                            <img src="{% static 'img/webp/person13.webp' %}" width="96" height="96" class="rounded-circle me-3"
+                            <img src="{% static 'img/webp/person13.webp' %}" width="96" height="96"
+                                 class="rounded-circle me-3"
                                  alt="a nice person" data-aos="fade" loading="lazy">
                             <div>
-                                <span class="h6 fw-5">Jane Doemunsky</span><br>
-                                <small class="text-secondary">COO, The Boo Corp.</small>
+                                <span class="h6 fw-5">Какой-то белый тип</span><br>
+                                <small class="text-secondary">CEO Discord</small>
                             </div>
                         </div>
                     </div>
@@ -342,8 +344,8 @@
                 </div>
                 <div class="col-12 col-lg-6">
                     <div class="p-5 pt-0" data-aos="fade">
-                        <span class="h5 text-secondary fw-lighter">What others have to say</span>
-                        <h2 class="display-4">Invidunt ut labore et dolore magna aliquyam erat.</h2>
+                        <span class="h5 text-secondary fw-lighter">Что думают о нас другие?</span>
+                        <h2 class="display-4">Представляем Вам пару случайных отзывов</h2>
                     </div>
                     <div class="rounded-5 bg-black p-5 shadow mt-5 gradient" data-aos="zoom-in-left">
                         <div class="fs-1">
@@ -378,15 +380,14 @@
 
 
                         </div>
-                        <p class="lead">"Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-                            ut aliquip ex ea commodo consequat."</p>
+                        <p class="lead">"А как звонить?"</p>
                         <div class="d-flex justify-content-start align-items-center border-top pt-3">
-                            <img src="{% static 'img/webp/person16.webp' %}" width="96" height="96" class="rounded-circle me-3"
+                            <img src="{% static 'img/webp/person16.webp' %}" width="96" height="96"
+                                 class="rounded-circle me-3"
                                  alt="a nice person" data-aos="fade" loading="lazy">
                             <div>
-                                <span class="h6 fw-5">Jane Doemunsky</span><br>
-                                <small>COO, The Boo Corp.</small>
+                                <span class="h6 fw-5">Какая-то девушка</span><br>
+                                <small>CEO Zoom</small>
                             </div>
                         </div>
                     </div>
